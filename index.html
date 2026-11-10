@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Um espaço seguro para cuidar da sua saúde emocional com Shaylla Correa, psicóloga clínica."
+    />
+    <title>Shaylla Correa | Psicóloga Clínica</title>
+    <link rel="stylesheet" href="style.css" />
+    <link 
+  rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+  </head>
+
+  <body>
+    <!-- Atalho de Acessibilidade -->
+    <a href="#main-content" class="sr-only">Saltar para o conteúdo principal</a>
+
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Shaylla Correa - início">
+        <span class="brand-leaf" aria-hidden="true">❧</span>
+        <span>
+          <strong>Shaylla Correa</strong>
+          <small>PSICÓLOGA CLÍNICA</small>
+          <small>CRP 12/26626</small>
+        </span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+      >
+        
+      </button>
+
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre mim</a>
+        <a href="#terapia">Terapia</a>
+        <a href="#depoimentos">Depoimentos</a>
+      </nav>
+
+      <!-- Exemplo no cabeçalho -->
+  <a 
+  href="https://wa.me/5547996876025?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20terapia." 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  class="btn-fale-comigo"
+>
+  Fale Comigo
+</a>
+  <a 
+      href="https://www.instagram.com/shaylla_psicologa?exln=bzVjM2ZwYzhvdjZq" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="instagram-link"
+      aria-label="Instagram da Dra. Shaylla Correa"
+    >
+      <i class="fa-brands fa-instagram"></i>
+      <span>@shaylla_psicologa</span>
+    </a>
+</a>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+    <p class="eyebrow">UM ESPAÇO SEGURO PARA VOCÊ</p>
+
+    <h1>
+      Antes de cuidar<br />
+      da mente, talvez você<br />
+      precise de um lugar<br />
+      para <em>dizer o que sente.</em>
+    </h1>
+
+    <p class="hero-intro">
+      Aqui, você pode ser você. Sem julgamentos.<br />
+      Sem pressa. Apenas o seu sentir, do seu jeito.
+    </p>
+
+    <a class="button button-green" href="#acolhimento">
+      Como você está se sentindo hoje?
+      <span aria-hidden="true">→</span>
+    </a>
+  </div>
+
+  <!-- Bloco da imagem na direita -->
+  <div
+    class="hero-art"
+    aria-label="Árvore com frutos e raízes representando a mente e os sentimentos"
+  >
+    <!-- Substitui o caminho da imagem pelo nome exato do ficheiro guardado na tua pasta de assets -->
+    <img
+    src="assets/arvore-sentimentos.jpeg.png"
+    alt="Árvore e raízes representando sentimentos"
+    />
+
+    <!-- Palavras e notas decorativas (caso queiras sobrepor via CSS) -->
+    <p class="hand-note note-top">
+      Por trás de<br />
+      cada dor, existe<br />
+      uma história.<br />
+      E toda história<br />
+      merece ser ouvida. ♡
+    </p>
+
+    <!-- Palavras espalhadas pelas raízes -->
+  <span class="root-word r-traumas">Traumas</span>
+  <span class="root-word r-medos">Medos</span>
+  <span class="root-word r-culpa">Culpa</span>
+  <span class="root-word r-borderline">Borderline</span>
+  <span class="root-word r-tdah">TDAH</span>
+  <span class="root-word r-burnout">Burnout</span>
+  <span class="root-word r-luto">Luto</span>
+  </div>
+  
+  <!-- Ilustração abaixo da frase -->
+  <img
+    src="assets/logo-200.png"
+    alt="Ilustração em linha de perfil humano com borboletas"
+    class="note-illustration"
+  />
+</section>
+
+          <span class="root-word root-one"></span>
+          <span class="root-word root-two"></span>
+          <span class="root-word root-three"></span>
+          <span class="root-word root-four"></span>
+        </div>
+      </section>
+
+      <section class="checkin section-shell" id="acolhimento">
+        <div class="checkin-copy">
+          <h2>Como você está se sentindo hoje?</h2>
+          <p>
+            Escolha o que mais combina com o que você está vivendo<br
+              class="desktop-only"
+            />
+            ou escreva livremente. Não existe resposta certa.
+          </p>
+
+          <form id="feeling-form">
+            <label class="sr-only" for="feeling-text">
+              Conte o que está passando pela sua cabeça
+            </label>
+
+            <textarea
+              id="feeling-text"
+              maxlength="1000"
+              placeholder="Conte o que está passando pela sua cabeça...&#10;Pode ser algo que você sente, pensa ou simplesmente&#10;não consegue colocar em palavras."
+            ></textarea>
+
+            <div class="textarea-meta">
+              <span id="char-count">0/1000</span>
+            </div>
+
+            <button class="button button-green" type="submit">
+              Enviar desabafo ↗
+            </button>
+
+            <p class="privacy-note">
+              Seu relato é confidencial e seguro.<br />
+              Seus dados estão protegidos pela LGPD.
+            </p>
+
+            <p class="form-message" id="form-message" role="status"></p>
+          </form>
+        </div>
+
+        <div class="feeling-picker">
+          <p class="picker-title">Ou escolha um sentimento</p>
+
+          <div
+            class="feelings"
+            role="group"
+            aria-label="Escolha um sentimento"
+          >
+            <button type="button" class="feeling" data-feeling="Tristeza">
+              <span aria-hidden="true">♧</span>
+              Tristeza
+            </button>
+
+            <button
+              type="button"
+              class="feeling blush"
+              data-feeling="Ansiedade"
+            >
+              <span aria-hidden="true">♧</span>
+              Ansiedade
+            </button>
+
+            <button type="button" class="feeling blush" data-feeling="Medo">
+              <span aria-hidden="true">♡</span>
+              Medo
+            </button>
+
+            <button type="button" class="feeling blush" data-feeling="Raiva">
+              <span aria-hidden="true">♨</span>
+              Raiva
+            </button>
+
+            <button type="button" class="feeling sand" data-feeling="Cansaço">
+              <span aria-hidden="true">▣</span>
+              Cansaço
+            </button>
+
+            <button type="button" class="feeling" data-feeling="Vazio">
+              <span aria-hidden="true">☁</span>
+              Vazio
+            </button>
+
+            <button type="button" class="feeling" data-feeling="Solidão">
+              <span aria-hidden="true">♙</span>
+              Solidão
+            </button>
+
+            <button type="button" class="feeling blush" data-feeling="Culpa">
+              <span aria-hidden="true">♧</span>
+              Culpa
+            </button>
+
+            <button
+              type="button"
+              class="feeling blush"
+              data-feeling="Confusão"
+            >
+              <span aria-hidden="true">◎</span>
+              Confusão
+            </button>
+
+            <button type="button" class="feeling" data-feeling="Esperança">
+              <span aria-hidden="true">☼</span>
+              Esperança
+            </button>
+
+            <button
+              type="button"
+              class="feeling"
+              data-feeling="Autoconhecimento"
+            >
+              <span aria-hidden="true">♧</span>
+              Autoconhecimento
+            </button>
+
+            <button type="button" class="feeling blush" data-feeling="Outro">
+              <span aria-hidden="true">···</span>
+              Outro
+            </button>
+      </section>
+
+      <section class="pain-care" id="terapia">
+        <article class="pain-card">
+          <p class="eyebrow">ACOLHIMENTO SEM JULGAMENTO</p>
+          <h2>Algumas dores<br />não aparecem</h2>
+          <p>
+            Nem toda ferida é visível. Muitos traumas ficam nas entrelinhas, no
+            jeito de sentir, de pensar e de se relacionar. É sobre isso que
+            vamos falar aqui, com acolhimento, informações e sem julgamentos.
+          </p>
+        </article>
+
+        <div class="roots-photo">
+          <img
+            src="assets/autocuidado.png"
+            alt="Raízes de uma árvore, representando experiências e sentimentos"
+          />
+        </div>
+
+        <article class="care-card">
+          <h2>Cuidar de si<br />também é cura</h2>
+          <p>
+            Autocuidado vai além de skincare e momentos de lazer. É sobre
+            respeitar seus limites, reconhecer suas necessidades e dar espaço
+            para o que te faz bem de verdade.
+          </p>
+        </article>
+
+        <aside class="self-care">
+          <p class="eyebrow">Autocuidado também pode ser:</p>
+          <ul>
+            <li>Dizer não.</li>
+            <li>Descansar sem culpa.</li>
+            <li>Parar de tentar agradar todo mundo.</li>
+            <li>Reconhecer que você não está bem.</li>
+            <li>Pedir ajuda.</li>
+            <li>Estabelecer limites.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="topics-about" id="conteudos">
+        <div class="quote-panel">
+          <div class="quote-text">
+          <p class="quote">“Nem toda ferida<br />aparece na pele.”</p>
+          <p>
+            Algumas experiências continuam presentes mesmo quando já ficaram
+            no passado.
+          </p>
+          </div>
+          <img src="assets/curativo (1).png" alt="cerebro-curativo">
+        </div>
+
+        <div class="topics-panel">
+          <p class="eyebrow">TEMAS QUE PODEM TE AJUDAR</p>
+
+          <div class="topic-grid">
+            <a href="#terapia">♧<span>Borderline</span></a>
+            <a href="#terapia">♡<span>TDAH</span></a>
+            <a href="#terapia">♧<span>Burnout</span></a>
+            <a href="#terapia">♙<span>Autoestima</span></a>
+            <a href="#terapia">♧<span>Luto</span></a>
+            <a href="#terapia">⬡<span>Limites</span></a>
+            <a href="#terapia">◎<span>Autocobrança</span></a>
+            <a href="#terapia">☼<span>Depressão</span></a>
+            <a href="#terapia">···<span>E muito mais</span></a>
+          </div>
+        </div>
+
+        <div class="about-panel" id="sobre"></div>
+
+          <div>
+            <p class="eyebrow">QUEM SOU EU?</p>
+            <h2>Shaylla Correa</h2>
+            <p>Psicóloga Clínica | CRP 06/123456</p>
+            <ul class="formacao-lista">
+              <li>Psicóloga formada pela Unoesc</li>
+              <li>Pós graduada em Terapia Cognitiva Comportamental</li>
+              <li>Pós graduada em Neuropsicologia</li>
+              <li>Experiência no tratamento de dependencia clínica</li>
+            </ul>
+            
+          </div>
+
+          <div class="credentials">
+  <h3>Como funciona a terapia?</h3>
+  <ul>
+    <li>O processo acontece por meio da abordagem de atendimento da <strong>Terapia Cognitivo-Comportamental (TCC)</strong>.</li>
+    <li>Por meio da TCC, trabalhamos a sua forma de pensar, sentir e seus comportamentos.</li>
+    <li>O processo é <strong>psicoeducativo</strong>, ajudando a compreender os padrões que se repetem e como sair deles.</li>
+  </ul>
+</div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="depoimentos">
+        <div class="testimonial-intro">
+          <p class="eyebrow">DEPOIMENTOS</p>
+          <h2>Histórias reais,<br />recomeços possíveis.</h2>
+          <p>
+            Cada relato aqui é a prova de que você não está sozinha. Veja o que
+            algumas pessoas que já passaram por aqui têm a dizer.
+          </p>
+
+          <div class="slider-controls">
+            <button
+              id="prev-testimonial"
+              type="button"
+              aria-label="Depoimento anterior"
+            >
+              ←
+            </button>
+            <button
+              id="next-testimonial"
+              type="button"
+              aria-label="Próximo depoimento"
+            >
+              →
+            </button>
+          </div>
+        </div>
+
+        <div class="testimonial-list" id="testimonial-list">
+          <article class="testimonial">
+            <div class="avatar avatar-one" aria-hidden="true">J</div>
+            <p>
+              “Tô muito feliz em conseguir voltar a treinar e estar com a minha
+              mente tão bem, e você está me ajudando tanto nisso. obrigada por
+              estar me ajudando a me reencontrar todos os dias.”
+            </p>
+            <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+          </article>
+
+          <article class="testimonial">
+            <div class="avatar avatar-two" aria-hidden="true">R</div>
+            <p>
+              “Shayla, não sei quantas vezes vou dizer isto, mas, mais uma vez:
+              OBRIGADA! De todo coração. É magnífico sentir o que estou
+              sentindo.”
+            </p>
+            <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+          </article>
+
+          <article class="testimonial">
+            <div class="avatar avatar-three" aria-hidden="true">C</div>
+            <p>
+              “A terapia com a Shaylla tem sido um divisor de águas na minha
+              vida. Me sinto mais forte, mais consciente e mais eu mesma.”
+            </p>
+            <div class="stars" aria-label="5 de 5 estrelas">★★★★★</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="closing-quote">
+        <p>
+          “Você não precisa enfrentar tudo sozinh(a).<br />
+          Aqui, você pode ser você.” ♡
+        </p>
+      </section>
+    </main>
+
+    <!-- Adicionado o id="contato" no footer para servir de âncora -->
+    <footer class="site-footer" id="contato">
+      <a class="brand" href="#inicio">
+        <span class="brand-leaf" aria-hidden="true">❧</span>
+        <span>
+          <strong>Shaylla Correa</strong>
+          <small>PSICÓLOGA CLÍNICA</small>
+        </span>
+      </a>
+
+      <p class="disclaimer">
+        Este site não substitui o acompanhamento psicológico. Em caso de
+        emergência, procure ajuda especializada.
+      </p>
+  </div>
+
+      <small>
+        © 2025 Shaylla Correa. Todos os direitos reservados. | LGPD
+      </small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
