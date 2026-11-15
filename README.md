@@ -1,7 +1,16 @@
 # 🌿 Shaylla Correa | Psicologia Clínica
 
 <p align="center">
-  <img src="assets/logo-200.png" width="120" alt="Logo do projeto">
+  <picture>
+  <source
+    srcset="assets/logo-dark.png"
+    media="(prefers-color-scheme: dark)"
+  >
+  <img
+    src="assets/logo-light.png"
+    alt="Ilustração da identidade visual"
+  >
+</picture>
 </p>
 
 <p align="center">
@@ -30,7 +39,7 @@ O design utiliza elementos visuais, cores suaves e uma organização intuitiva p
 - **Conteúdo informativo:** apresentação de temas relacionados à saúde emocional e ao autocuidado.
 - **Apresentação profissional:** seção dedicada à formação e atuação da psicóloga.
 - **Depoimentos:** carrossel com navegação entre os conteúdos demonstrativos.
-- **Contato:** atalhos para WhatsApp e Instagram.
+- **Contato:** atalhos para WhatsApp e Instagram da profissional.
 
 ## 🛠️ Tecnologias utilizadas
 
