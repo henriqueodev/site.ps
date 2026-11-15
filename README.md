@@ -3,7 +3,7 @@
 
 <p align="center">
   <picture>
-    <img src="assets/logo-readme.png" alt="Shaylla Correa">
+    <img src="assets/logo-readme.png" width="120" alt="Logo do projeto">
   </picture>
 </p>
 
