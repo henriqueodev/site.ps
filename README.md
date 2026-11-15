@@ -1,16 +1,7 @@
 # 🌿 Shaylla Correa | Psicologia Clínica
 
 <p align="center">
-  <picture>
-  <source
-    srcset="assets/logo-dark.png"
-    media="(prefers-color-scheme: dark)"
-  >
-  <img
-    src="assets/logo-light.png"
-    alt="Ilustração da identidade visual"
-  >
-</picture>
+  <img src="assets/logo-dark.png" width="120" alt="Logo do projeto">
 </p>
 
 <p align="center">
