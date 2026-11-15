@@ -1,8 +1,25 @@
 # 🌿 Shaylla Correa | Psicologia Clínica
 
+
 <p align="center">
-  <img src="assets/logo-dark.png" width="120" alt="Logo do projeto">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="assets/logo-dark.png"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="assets/logo-light.png"
+    >
+    <img
+      src="assets/logo-light.png"
+      width="200"
+      alt="Ilustração da identidade visual"
+    >
+  </picture>
 </p>
+
+
 
 <p align="center">
   <strong>Um espaço de acolhimento, autoconhecimento e cuidado emocional.</strong>
