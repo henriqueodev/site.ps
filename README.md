@@ -76,10 +76,6 @@ git clone https://github.com/henriqueqodev/site.ps.git
 
 2. Acesse a pasta do projeto:
 
-```bash
-cd site.ps
-```
-
 3. Abra o arquivo `index.html` no navegador.
 
 Para facilitar o desenvolvimento, recomenda-se utilizar a extensão **Live Server** no Visual Studio Code.
