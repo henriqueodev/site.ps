@@ -52,16 +52,32 @@ if (feelingButtons.length > 0 && feelingText && charCount) {
 }
 
 if (feelingForm) {
+  // Número da psicóloga no formato internacional (55 + DDD + número, só dígitos)
+  const WHATSAPP_NUMBER = '5547996876025';
+
   feelingForm.addEventListener('submit', event => {
     event.preventDefault();
     const message = document.querySelector('#form-message');
-    if (!feelingText.value.trim()) {
+    const texto = feelingText.value.trim();
+
+    if (!texto) {
       if (message) message.textContent = 'Se quiser, escreva algumas palavras ou selecione um sentimento antes de continuar.';
       feelingText.focus();
       return;
     }
+
+    // Monta a mensagem e abre o WhatsApp já com o desabafo preenchido
+    const mensagemCompleta = `Olá, Shaylla! Gostaria de compartilhar um desabafo:\n\n${texto}`;
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(mensagemCompleta)}`;
+
+    const janela = window.open(url, '_blank', 'noopener');
+    if (!janela) {
+      // Se o navegador bloquear a nova aba, abre na mesma janela
+      window.location.href = url;
+    }
+
     if (message) {
-      message.textContent = 'Este é um protótipo visual: seu relato não foi enviado nem armazenado. Para receber relatos com segurança, conecte um serviço com consentimento e proteção de dados.';
+      message.textContent = 'Abrindo o WhatsApp... Basta tocar em enviar para a mensagem chegar até a psicóloga.';
     }
   });
 }
