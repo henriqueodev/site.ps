@@ -71,9 +71,8 @@ SITE.PS/
 │
 ├── public/
 │   └── assets/
-│   │    ├── imagens e fotografias
-│   │    ├── elementos visuais
-│   │    └── logo-readme.png
+│   │    └── imagens e fotografias    
+│   │    
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
@@ -97,12 +96,6 @@ A interface foi desenvolvida considerando diferentes tamanhos de tela, buscando 
 
 ## ⚠️ Observações
 
-Este projeto possui funcionalidades demonstrativas e está em desenvolvimento.
-
-O formulário de acolhimento emocional, em sua implementação atual, não realiza o envio nem o armazenamento de informações.
-
-Para disponibilização em ambiente de produção, será necessária uma implementação adequada de backend, com mecanismos de segurança, consentimento, controle de acesso e proteção de dados pessoais, observando os requisitos aplicáveis da Lei Geral de Proteção de Dados (LGPD).
-
 As informações profissionais, credenciais e eventuais depoimentos demonstrativos deverão ser revisados e validados pela profissional responsável antes da publicação definitiva.
 
 ## 👨‍💻 Desenvolvimento
@@ -112,5 +105,5 @@ O desenvolvimento também representa uma oportunidade de aplicar e aprofundar co
 ---
 
 <p align="center">
-  Desenvolvido com dedicação e aprendizado contínuo. ♡
+  Desenvolvido com dedicação e aprendizado contínuo.
 </p>
