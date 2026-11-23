@@ -26,7 +26,36 @@ app.use(
 // Permite que o servidor interprete corpos de requisição enviados no formato JSON (ex.: fetch com POST)
 app.use(express.json());
 
-// Define a pasta raiz atual (__dirname, que já é "site.ps") como entrega de arquivos estáticos.
+// Lista de arquivos e pastas internas que nunca devem ser expostos pelo navegador
+const arquivosBloqueados = [
+  '/server.js',
+  '/package.json',
+  '/package-lock.json',
+  '/.env',
+  '/.gitignore',
+  '/.gitattributes',
+  '/README.md',
+  '/README.txt',
+  '/LICENSE',
+];
+
+// Middleware que intercepta requisições para arquivos internos ou pastas ocultas (como .git ou node_modules)
+// e devolve 404 antes de o express.static tentar servir o arquivo
+app.use((req, res, next) => {
+  const caminho = req.path.toLowerCase();
+
+  const bloqueadoPorNome = arquivosBloqueados.includes(caminho);
+  const bloqueadoPorPasta =
+    caminho.startsWith('/.git') || caminho.startsWith('/node_modules');
+
+  if (bloqueadoPorNome || bloqueadoPorPasta) {
+    return res.status(404).send('Não encontrado');
+  }
+
+  next();
+});
+
+// Define a pasta raiz atual (__dirname) como entrega de arquivos estáticos.
 // Assim, index.html, style.css, script.js e assets/ ficam acessíveis direto pelo navegador.
 app.use(express.static(__dirname));
 
