@@ -1,0 +1,29 @@
+{
+  "name": "site.ps",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <picture>\r     <img src=\"public/assets/logo-readme.png\" width=\"320\" alt=\"Logo do projeto\">\r   </picture>\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriqueodev/site.ps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/henriqueodev/site.ps/issues"
+  },
+  "homepage": "https://github.com/henriqueodev/site.ps#readme",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.5",
+    "helmet": "^8.3.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
+  }
+}

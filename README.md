@@ -3,7 +3,7 @@
 
 <p align="center">
   <picture>
-    <img src="assets/logo-readme.png" width="320" alt="Logo do projeto">
+    <img src="public/assets/logo-readme.png" width="320" alt="Logo do projeto">
   </picture>
 </p>
 
