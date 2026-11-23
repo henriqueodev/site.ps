@@ -21,7 +21,7 @@
 
 ## 📌 Sobre o projeto
 
-O Shaylla Correa | Psicologia Clínica é um projeto de desenvolvimento web voltado à criação de um site institucional para uma profissional da área de Psicologia Clínica.
+O site Shaylla Correa | Psicologia Clínica é um projeto de desenvolvimento web voltado à criação de um site institucional para uma profissional da área de Psicologia Clínica.
 
 A proposta é oferecer uma experiência digital acolhedora, intuitiva e responsiva, apresentando informações sobre a profissional, sua atuação e os serviços oferecidos.
 
@@ -31,11 +31,17 @@ Além da apresentação profissional, o projeto conta com elementos interativos 
 ## ✨ Funcionalidades
 
 Página inicial: apresentação da profissional e da proposta do site.
+
 Navegação responsiva: menu adaptável para diferentes dispositivos.
+
 Acolhimento emocional: seleção de sentimentos e campo de escrita livre.
+
 Conteúdo informativo: informações sobre saúde emocional, bem-estar e autocuidado.
+
 Apresentação profissional: seção dedicada à trajetória, formação e atuação da psicóloga.
+
 Depoimentos: carrossel demonstrativo com navegação entre os conteúdos.
+
 Contato: atalhos para os canais profissionais de WhatsApp e Instagram.
 
 ## 🛠️ Tecnologias utilizadas
@@ -43,14 +49,19 @@ Contato: atalhos para os canais profissionais de WhatsApp e Instagram.
 ## Front-end
 
 HTML5: estruturação e organização do conteúdo.
+
 CSS3: estilização, identidade visual, layouts e responsividade.
+
 JavaScript: interatividade e manipulação dinâmica dos elementos da página.
 
 ## Ambiente e ferramentas
 
 Visual Studio Code.
+
 Node.js e npm.
+
 Git.
+
 GitHub.
 
 ## 📂 Estrutura do projeto
@@ -86,11 +97,13 @@ A interface foi desenvolvida considerando diferentes tamanhos de tela, buscando 
 
 ## ⚠️ Observações
 
-Este projeto é uma implementação Front-end.
+Este projeto possui funcionalidades demonstrativas e está em desenvolvimento.
 
-O formulário de acolhimento é demonstrativo e não realiza envio ou armazenamento de informações. Para utilização em ambiente de produção, será necessária a implementação de uma estrutura de backend segura, mecanismos de consentimento e medidas adequadas de proteção de dados e conformidade com a LGPD.
+O formulário de acolhimento emocional, em sua implementação atual, não realiza o envio nem o armazenamento de informações.
 
-As informações profissionais, credenciais e depoimentos demonstrativos devem ser confirmados pela profissional antes da publicação.
+Para disponibilização em ambiente de produção, será necessária uma implementação adequada de backend, com mecanismos de segurança, consentimento, controle de acesso e proteção de dados pessoais, observando os requisitos aplicáveis da Lei Geral de Proteção de Dados (LGPD).
+
+As informações profissionais, credenciais e eventuais depoimentos demonstrativos deverão ser revisados e validados pela profissional responsável antes da publicação definitiva.
 
 ## 👨‍💻 Desenvolvimento
 
