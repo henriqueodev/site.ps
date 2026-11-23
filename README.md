@@ -69,13 +69,12 @@ GitHub.
 ```text
 SITE.PS/
 │
-├── public/
-│   └── assets/
-│   │    └── imagens e fotografias    
-│   │    
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
+├──assets/
+│   └── imagens e fotografias
+│    
+├── index.html
+├── style.css
+│── script.js
 │
 ├── server.js
 ├── package.json
