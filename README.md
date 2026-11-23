@@ -21,64 +21,64 @@
 
 ## 📌 Sobre o projeto
 
-O projeto consiste no desenvolvimento de um site institucional para uma profissional da área de Psicologia Clínica, com foco em proporcionar uma experiência visual acolhedora, intuitiva e acessível aos visitantes.
+O Shaylla Correa | Psicologia Clínica é um projeto de desenvolvimento web voltado à criação de um site institucional para uma profissional da área de Psicologia Clínica.
 
-A proposta é apresentar os serviços profissionais, disponibilizar informações sobre saúde emocional e oferecer uma interface que permita ao visitante explorar diferentes conteúdos e expressar como está se sentindo.
+A proposta é oferecer uma experiência digital acolhedora, intuitiva e responsiva, apresentando informações sobre a profissional, sua atuação e os serviços oferecidos.
 
-O design utiliza elementos visuais, cores suaves e uma organização intuitiva para transmitir uma sensação de acolhimento e tranquilidade.
+A interface foi planejada para transmitir tranquilidade e proximidade por meio de uma identidade visual delicada, com cores suaves, tipografia cuidadosamente selecionada e organização intuitiva dos conteúdos.
 
+Além da apresentação profissional, o projeto conta com elementos interativos voltados ao acolhimento emocional e à divulgação de informações sobre saúde emocional e autocuidado.
 ## ✨ Funcionalidades
 
-- **Página inicial:** apresentação da profissional e proposta do site.
-- **Navegação responsiva:** menu adaptável para dispositivos móveis.
-- **Acolhimento emocional:** seleção de sentimentos e campo para escrita livre.
-- **Conteúdo informativo:** apresentação de temas relacionados à saúde emocional e ao autocuidado.
-- **Apresentação profissional:** seção dedicada à formação e atuação da psicóloga.
-- **Depoimentos:** carrossel com navegação entre os conteúdos demonstrativos.
-- **Contato:** atalhos para WhatsApp e Instagram da profissional.
+Página inicial: apresentação da profissional e da proposta do site.
+Navegação responsiva: menu adaptável para diferentes dispositivos.
+Acolhimento emocional: seleção de sentimentos e campo de escrita livre.
+Conteúdo informativo: informações sobre saúde emocional, bem-estar e autocuidado.
+Apresentação profissional: seção dedicada à trajetória, formação e atuação da psicóloga.
+Depoimentos: carrossel demonstrativo com navegação entre os conteúdos.
+Contato: atalhos para os canais profissionais de WhatsApp e Instagram.
 
 ## 🛠️ Tecnologias utilizadas
 
-### Front-end
+## Front-end
 
-- HTML5 — estruturação do conteúdo.
-- CSS3 — estilização, layout e responsividade.
-- JavaScript — interatividade e manipulação dos elementos da página.
+HTML5: estruturação e organização do conteúdo.
+CSS3: estilização, identidade visual, layouts e responsividade.
+JavaScript: interatividade e manipulação dinâmica dos elementos da página.
 
-### Ferramentas
+## Ambiente e ferramentas
 
-- Visual Studio Code.
-- Git.
-- GitHub.
-- GitHub Pages (publicação, quando configurada).
+Visual Studio Code.
+Node.js e npm.
+Git.
+GitHub.
 
 ## 📂 Estrutura do projeto
 
 ```text
-site.ps/
+SITE.PS/
 │
-├── index.html
-├── style.css
-├── script.js
+├── public/
+│   └── assets/
+│   │    ├── imagens e fotografias
+│   │    ├── elementos visuais
+│   │    └── logo-readme.png
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
 │
-└── assets/
-    ├── imagens
-    └── elementos visuais
+├── server.js
+├── package.json
+├── package-lock.json
+├── .gitignore
+│
+├── LICENSE
+└── README.md
 ```
 
 ## 🚀 Como executar o projeto
 
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/henriqueqodev/site.ps.git
-```
-
-2. Acesse a pasta do projeto:
-
-3. Abra o arquivo `index.html` no navegador.
-
-Para facilitar o desenvolvimento, recomenda-se utilizar a extensão **Live Server** no Visual Studio Code.
+https://henriqueodev.github.io/site.ps/
 
 ## 📱 Responsividade
 
@@ -94,7 +94,7 @@ As informações profissionais, credenciais e depoimentos demonstrativos devem s
 
 ## 👨‍💻 Desenvolvimento
 
-Projeto desenvolvido como uma aplicação web institucional, utilizando tecnologias fundamentais do desenvolvimento Front-end.
+O desenvolvimento também representa uma oportunidade de aplicar e aprofundar conhecimentos em tecnologias fundamentais do desenvolvimento web.
 
 ---
 
