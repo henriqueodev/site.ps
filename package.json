@@ -19,11 +19,7 @@
   },
   "homepage": "https://github.com/henriqueodev/site.ps#readme",
   "dependencies": {
-    "dotenv": "^18.0.10",
     "express": "^5.3.0",
-    "express-rate-limit": "^8.7.5",
-    "helmet": "^8.3.0",
-    "sqlite": "^5.1.1",
-    "sqlite3": "^6.0.1"
+    "helmet": "^8.3.0"
   }
 }

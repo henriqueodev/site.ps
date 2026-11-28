@@ -3,7 +3,7 @@
 
 <p align="center">
   <picture>
-    <img src="assets/logo-readme.png" width="320" alt="Logo do projeto">
+    <img src="public/assets/logo-readme.png" width="320" alt="Logo do projeto">
   </picture>
 </p>
 
@@ -21,13 +21,14 @@
 
 ## 📌 Sobre o projeto
 
-O site Shaylla Correa | Psicologia Clínica é um projeto de desenvolvimento web voltado à criação de um site institucional para uma profissional da área de Psicologia Clínica.
+Shaylla Correa | Psicóloga Clínica: este é um projeto de desenvolvimento web voltado à criação de um site institucional para uma profissional da área de Psicologia Clínica.
 
 A proposta é oferecer uma experiência digital acolhedora, intuitiva e responsiva, apresentando informações sobre a profissional, sua atuação e os serviços oferecidos.
 
 A interface foi planejada para transmitir tranquilidade e proximidade por meio de uma identidade visual delicada, com cores suaves, tipografia cuidadosamente selecionada e organização intuitiva dos conteúdos.
 
 Além da apresentação profissional, o projeto conta com elementos interativos voltados ao acolhimento emocional e à divulgação de informações sobre saúde emocional e autocuidado.
+
 ## ✨ Funcionalidades
 
 Página inicial: apresentação da profissional e da proposta do site.
@@ -67,14 +68,15 @@ GitHub.
 ## 📂 Estrutura do projeto
 
 ```text
-SITE.PS/
+site.ps/
 │
-├──assets/
-│   └── imagens e fotografias
-│    
-├── index.html
-├── style.css
-│── script.js
+│── public/
+│    ├── assets/
+│    │    └── imagens e fotografias
+│    │ 
+│    ├── index.html
+│    ├── style.css
+│    └── script.js
 │
 ├── server.js
 ├── package.json
@@ -85,7 +87,7 @@ SITE.PS/
 └── README.md
 ```
 
-## 🚀 Como executar o projeto
+## 🚀 Exibição do projeto
 
 https://henriqueodev.github.io/site.ps/
 
@@ -93,13 +95,9 @@ https://henriqueodev.github.io/site.ps/
 
 A interface foi desenvolvida considerando diferentes tamanhos de tela, buscando proporcionar uma experiência consistente em computadores, tablets e smartphones.
 
-## ⚠️ Observações
-
-As informações profissionais, credenciais e eventuais depoimentos demonstrativos deverão ser revisados e validados pela profissional responsável antes da publicação definitiva.
-
 ## 👨‍💻 Desenvolvimento
 
-O desenvolvimento também representa uma oportunidade de aplicar e aprofundar conhecimentos em tecnologias fundamentais do desenvolvimento web.
+O desenvolvimento deste site representa uma oportunidade de aplicar e aprofundar conhecimentos em tecnologias fundamentais do desenvolvimento web.
 
 ---
 
