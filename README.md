@@ -70,13 +70,12 @@ GitHub.
 ```text
 site.ps/
 │
-│── public/
-│    ├── assets/
-│    │    └── imagens e fotografias
-│    │ 
-│    ├── index.html
-│    ├── style.css
-│    └── script.js
+├── assets/
+│     └── imagens e fotografias
+│
+├── index.html
+├── style.css
+├── script.js
 │
 ├── server.js
 ├── package.json
@@ -89,7 +88,7 @@ site.ps/
 
 ## 🚀 Exibição do projeto
 
-https://henriqueodev.github.io/site.ps/
+https://shaylla-psicologa.vercel.app
 
 ## 📱 Responsividade
 
